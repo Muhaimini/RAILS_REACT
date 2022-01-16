@@ -1,0 +1,26 @@
+GET http://127.0.0.1:5000/api/v1/accounts
+
+###
+
+GET http://127.0.0.1:5000/api/v1/accounts?id=2
+
+###
+
+POST http://127.0.0.1:5000/api/v1/accounts
+Content-Type: application/json
+
+{
+    "username": "aini",
+    "email": "aini@gmail.com",
+    "password": "123qwe"
+}
+
+###
+
+POST http://127.0.0.1:5000/api/v1/accounts
+Content-Type: application/json
+
+{
+    "email": "imin@gmail.com",
+    "password": "123qwe"
+}
